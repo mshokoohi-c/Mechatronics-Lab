@@ -1,4 +1,4 @@
-from pyb import ADC, Pin, Timer
+from pyb import ADC, Pin,Timer,ExtInt
 from array import array
 import time
 """
@@ -14,22 +14,7 @@ Notes: Resistor: 20.13 k Ohm
 """
 
 
-#Pre allocating array for data storage
-# H is used to represent data type..... 
-data = array('H', 1000*[0])
 
-#Config PC1 as digital output 
-PC1 = Pin(Pin.cpu.C1, mode=Pin.OUT_PP)
-#Config PC0 as Analog pin
-PC0= Pin(Pin.cpu.C0, mode=Pin.ANALOG)
-
-#Config ADC to be attached to PC0
-adc= ADC(PC0)
-
-
-
-
-i=0
 
 
 def tim_cb(tim):
@@ -57,34 +42,81 @@ def tim_cb(tim):
     
 
 
-#Creating timer object for Timer number 7 
-tim7 = Timer(7, freq=1000) 
-# Assign the callback function 
-tim7.callback(tim_cb)     
-
-
-time.sleep_ms(1000)
-
-#tim7.callback(None)     # disable the callback
-PC1.low()
 
 
 
-def Publish(data):
+def Publish():
     '''
     loop through the data array and push it to the putty terminal
     '''
+    global data
+    global i
     idx=0
     print(data)
     for idx, value in enumerate(data):
         
         print(f"{idx}, {value}")
+    data= 1000*[0]
+    i=0
     
+def ExecuteSequence():
+      # Assign the callback function 
+    tim7.callback(tim_cb)     
+
+    time.sleep_ms(1000)
+
+    #tim7.callback(None)     # disable the callback
+    PC1.low()
+    Publish()
     
-    
+def FlipFlag(_):
+    global Execute
+    if Execute:
+        Execute=False
+    else:
+        Execute=True
+
 
 if __name__=='__main__':
-    Publish(data)
+    
+    #Pre allocating array for data storage
+    # H is used to represent data type sint..
+    data = array('H', 1000*[0])
+
+    Execute=False
+    
+
+    #Creating timer object for Timer number 7 
+    tim7 = Timer(7, freq=1000) 
+
+    #Config PC1 as digital output (Step input)
+    PC1 = Pin(Pin.cpu.C1, mode=Pin.OUT_PP)
+
+    #Config PC0 as Analog pin
+    PC0= Pin(Pin.cpu.C0, mode=Pin.ANALOG)
+
+
+    #Config ADC to be attached to PC0
+    adc= ADC(PC0)
+
+    i=0
+
+    # Config button to start program
+    button_int = ExtInt(Pin.cpu.C13, ExtInt.IRQ_FALLING,
+                    Pin.PULL_NONE, FlipFlag)
+    
+
+    while(True):
+        if Execute:
+            ExecuteSequence()
+            FlipFlag('a')
+
+
+
+    
+    
+    
+  
 
 
 
