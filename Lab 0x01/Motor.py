@@ -16,14 +16,20 @@ class Motor:
     def set_effort(self, effort:float):
         '''Sets the present effort requested from the motor based on an input value
            between -100 and 100'''
-        self.PWM.pulse_width_percent(effort)
-
+        
+        if effort>0:
+            self.Direction.low()
+            self.PWM.pulse_width_percent(effort)
+        else:
+            self.Direction.high() 
+            self.PWM.pulse_width_percent(effort)
     
+    """
     def set_direction(self,Direction: str):
         if Direction == 'Forward':
-            self.Direction.low()
+            
         elif Direction == 'Reverse':   
-            self.Direction.high() 
+    """  
 
     def enable(self):
         '''Enables the motor driver by taking it out of sleep mode into brake mode'''
