@@ -37,8 +37,8 @@ LeftEncoder.zero()
 
 LoopCounter=0
 RightMotor.enable()
-RightMotor.set_effort(50)
-RightMotor.set_direction('Reverse')
+RightMotor.set_effort(100)
+#RightMotor.set_direction('Reverse')
 
 while True:
 
@@ -50,7 +50,7 @@ while True:
         LeftEncoder.update()
 
         LoopCounter+=1
-        if LoopCounter%1000==0:
+        if LoopCounter%10==0:
             print(f'Right Encoder Count is {RightEncoder.CurrentCount}')
             print(f'Right Encoder Traveled {RightEncoder.get_position()} mm')
             RightEncoder.get_velocity()

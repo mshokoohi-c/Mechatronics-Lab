@@ -1,176 +1,158 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="SvK_VV6iXzvveTmvaV2x">
-    <mxGraphModel dx="1391" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="893" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DL931rVJxZ8XirjzOSVg-1" value="Collection Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-1" value="Collection Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="140" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-2" value="Frequency: 200Hz&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DL931rVJxZ8XirjzOSVg-1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-2" value="Period 50ms" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DL931rVJxZ8XirjzOSVg-1" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-3" value="Priority: 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DL931rVJxZ8XirjzOSVg-1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-3" value="Priority: 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DL931rVJxZ8XirjzOSVg-1" vertex="1">
           <mxGeometry y="60" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-5" value="Serial Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-5" value="Serial Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="120" width="140" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-6" value="Frequency: 50Hz&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DL931rVJxZ8XirjzOSVg-5">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-6" value="Period 100ms" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DL931rVJxZ8XirjzOSVg-5" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-7" value="Priority: 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DL931rVJxZ8XirjzOSVg-5">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-7" value="Priority: 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DL931rVJxZ8XirjzOSVg-5" vertex="1">
           <mxGeometry y="60" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Serial: Start Test&amp;nbsp;&lt;div&gt;Serial: This duty cycle&lt;br&gt;&lt;div&gt;Collector: Ack Testing in progress&lt;/div&gt;&lt;div&gt;Collector: Heres the right side data&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Heres the Left side data&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Going back to Idle&amp;nbsp;&lt;br&gt;Serial: Im idle waiting for keyboard input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Serial: Start Test&amp;nbsp;&lt;div&gt;Serial: This duty cycle&lt;br&gt;&lt;div&gt;Collector: Ack Testing in progress&lt;/div&gt;&lt;div&gt;Collector: Heres the right side data&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Heres the Left side data&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Going back to Idle&amp;nbsp;&lt;br&gt;Serial: Im idle waiting for keyboard input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="500" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Serial: Start Test&amp;nbsp;&lt;div&gt;Serial: This duty cycle&lt;br&gt;&lt;div&gt;Collector: Ack Testing in progress&lt;/div&gt;&lt;div&gt;Collector: Heres the data from both sides with Time stamps&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Going back to Idle&amp;nbsp;&lt;br&gt;Serial: Im idle waiting for keyboard input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Serial: Start Test&amp;nbsp;&lt;div&gt;Serial: This duty cycle&lt;br&gt;&lt;div&gt;Collector: Ack Testing in progress&lt;/div&gt;&lt;div&gt;Collector: Heres the data from both sides with Time stamps&lt;br&gt;Serial: got it empty Que&lt;br&gt;Collector: Going back to Idle&amp;nbsp;&lt;br&gt;Serial: Im idle waiting for keyboard input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="500" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DL931rVJxZ8XirjzOSVg-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="450" as="sourcePoint" />
             <mxPoint x="600" y="131" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="150" as="sourcePoint" />
             <mxPoint x="597" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="263" y="170" as="sourcePoint" />
             <mxPoint x="600" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="263" y="190" as="sourcePoint" />
             <mxPoint x="600" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="263" y="209" as="sourcePoint" />
             <mxPoint x="600" y="209" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-28" value="Time [400] Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-28" value="Time [400] Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="110" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-29" value="RightSidePosition [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-29" value="RightSidePosition [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="130" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-30" value="LeftSidePosition [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-30" value="LeftSidePosition [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="150" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-31" value="LeftSideVelocity [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-31" value="LeftSideVelocity [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-32" value="RightSideVelocity [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-32" value="RightSideVelocity [400]&amp;nbsp;Uint16" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="170" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-35" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="230" as="sourcePoint" />
-            <mxPoint x="260" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-36" value="QuesEmpty Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="210" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-37" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="280" as="sourcePoint" />
-            <mxPoint x="600" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-38" value="CollectingData Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="260" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-39" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-7" target="DL931rVJxZ8XirjzOSVg-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="255" as="sourcePoint" />
-            <mxPoint x="280" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-40" value="StartTest Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="230" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-42" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="300" as="sourcePoint" />
-            <mxPoint x="600" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-43" value="Idle Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="280" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.969;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DL931rVJxZ8XirjzOSVg-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="595" y="329" as="sourcePoint" />
-            <mxPoint x="365" y="329" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-45" value="Idle Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="300" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-47" value="Serial Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-47" value="Serial Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1170" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-48" value="Collection Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-48" value="Collection Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1390" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-49" value="Waiting for Keyboard Input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-49" value="Waiting for Keyboard Input" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-50" value="Pushing data to Serial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1230" width="120" height="60" as="geometry" />
+        <mxCell id="DL931rVJxZ8XirjzOSVg-50" value="Pushing data to Serial" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-49" target="DL931rVJxZ8XirjzOSVg-50">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DL931rVJxZ8XirjzOSVg-49" target="DL931rVJxZ8XirjzOSVg-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1190" as="sourcePoint" />
             <mxPoint x="520" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-52" value="Key Pressed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-52" value="Key Pressed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="1290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-50" target="DL931rVJxZ8XirjzOSVg-49">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DL931rVJxZ8XirjzOSVg-50" target="DL931rVJxZ8XirjzOSVg-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1090" as="sourcePoint" />
             <mxPoint x="520" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-54" value="All Ques Emptied" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-54" value="All Ques Emptied" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="1210" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-56" value="IDLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1460" width="120" height="60" as="geometry" />
+        <mxCell id="DL931rVJxZ8XirjzOSVg-56" value="IDLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-57" value="Sampling Data and storing to Que" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1460" width="120" height="60" as="geometry" />
+        <mxCell id="DL931rVJxZ8XirjzOSVg-57" value="Sampling Data and storing to Que" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-56" target="DL931rVJxZ8XirjzOSVg-57">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DL931rVJxZ8XirjzOSVg-56" target="DL931rVJxZ8XirjzOSVg-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1420" as="sourcePoint" />
-            <mxPoint x="490" y="1370" as="targetPoint" />
+            <mxPoint x="430" y="1420" as="sourcePoint" />
+            <mxPoint x="480" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-59" value="StartTest Flag set to 1 by Serial Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1520" width="100" height="30" as="geometry" />
+        <mxCell id="DL931rVJxZ8XirjzOSVg-59" value="StartTest Flag set to 1 by Serial Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1520" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL931rVJxZ8XirjzOSVg-57" target="DL931rVJxZ8XirjzOSVg-56">
+        <mxCell id="DL931rVJxZ8XirjzOSVg-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DL931rVJxZ8XirjzOSVg-57" target="DL931rVJxZ8XirjzOSVg-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1320" as="sourcePoint" />
-            <mxPoint x="490" y="1270" as="targetPoint" />
+            <mxPoint x="430" y="1320" as="sourcePoint" />
+            <mxPoint x="480" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DL931rVJxZ8XirjzOSVg-61" value="2 Seconds Elapsed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1440" width="130" height="30" as="geometry" />
+        <mxCell id="DL931rVJxZ8XirjzOSVg-61" value="100 data points collected&lt;div&gt;queues full&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="260" as="sourcePoint" />
+            <mxPoint x="590" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-2" value="good_to_publish Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-4" value="start_test Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="329.26" as="sourcePoint" />
+            <mxPoint x="590" y="329.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNdxtTaG6kimLDVIh-wU-6" value="collecting data Uint8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="299.26" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
